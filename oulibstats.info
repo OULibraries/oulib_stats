@@ -1,0 +1,4 @@
+name = OU Libraries Stats Helpers
+description = Various bit and bots for the oulibraries stats site
+core = 7.x
+package = OU Libraries

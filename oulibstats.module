@@ -1,0 +1,12 @@
+<?php
+
+
+
+function oulibstats_views_pre_render(&$view) {
+
+  foreach ($view->field as $key => &$result) {
+    dpm( $key);
+    dpm( $result);  
+
+  }
+}
